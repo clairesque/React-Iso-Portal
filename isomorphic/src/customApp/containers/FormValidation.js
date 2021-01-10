@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Input } from 'antd';
 import Form from '../../../src/components/uielements/form';
+import IntlMessages from '../../../src/components/utility/intlMessages';
 const FormItem = Form.Item;
 
 class FormWithSubmissionButton extends Component {
@@ -45,7 +46,7 @@ class FormWithSubmissionButton extends Component {
     };
     return (
       <Form onSubmit={this.handleSubmit}>
-        <FormItem {...formItemLayout} label="Your booking code" hasFeedback>
+        <FormItem {...formItemLayout} label={<IntlMessages id="booking.code" />} hasFeedback>
           {getFieldDecorator('code', {
             rules: [
               {

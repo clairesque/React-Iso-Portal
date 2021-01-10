@@ -637,6 +637,7 @@
   "topbar.viewAll": "View All",
   "topbar.viewCart": "View Cart",
   "topbar.totalPrice": "Total Price",
+  "booking.code": "Your booking code",
   "booking.greeting": "Hi, John Doe",
   "booking.message": "Thank you for your booking with Bukit Vista. Here are the details of your current booking:",
   "booking.property": "Property name: ",
